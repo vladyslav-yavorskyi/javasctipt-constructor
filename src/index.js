@@ -1,3 +1,1 @@
-import './module';
-
-console.log('I am index.js');
+import './styles/main.css';
