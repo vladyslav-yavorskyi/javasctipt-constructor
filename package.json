@@ -1,0 +1,29 @@
+{
+  "name": "javascript-constructor",
+  "version": "1.0.0",
+  "description": "The web application that making a web sites in web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladyslav-yavorskyi/javasctipt-constructor.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "node.js"
+  ],
+  "author": "Vladyslav Yavorskyi <vlad09vlad09@gmial.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladyslav-yavorskyi/javasctipt-constructor/issues"
+  },
+  "homepage": "https://github.com/vladyslav-yavorskyi/javasctipt-constructor#readme",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
