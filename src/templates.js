@@ -7,11 +7,13 @@ function title(block) {
 }
 
 function text(block) {
-  return row(col(`<p>${block.value}</p>`), block.options.styles);
+  const { styles } = block.options;
+  return row(col(`<p style="${styles}">${block.value}</p>`));
 }
 
 function textColumns(block) {
-  let html = block.value.map((item) => col(item));
+  const { styles } = block.options;
+  let html = block.value.map((item) => col(item, styles));
 
   return row(html.join(' '));
 }
