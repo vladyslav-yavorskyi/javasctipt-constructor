@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+form {
+  padding: 1rem 0;
+}
+
 #app {
   position: relative;
 }

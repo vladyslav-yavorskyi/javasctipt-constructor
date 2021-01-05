@@ -29,8 +29,8 @@ export class ImageBlock extends Block {
   }
 
   toHTML() {
-    const { styles } = this.options;
-    return row(col(`<img src="${this.value}" />`, styles));
+    const { tag, styles } = this.options;
+    return row(col(`<${tag} src="${this.value}" />`, styles));
   }
 }
 
@@ -40,8 +40,8 @@ export class TextBlock extends Block {
   }
 
   toHTML() {
-    const { styles } = this.options;
-    return row(col(`<p style="${styles}">${this.value}</p>`));
+    const { tag = 'p', styles } = this.options;
+    return row(col(`<${tag} style="${styles}">${this.value}</$>`));
   }
 }
 
